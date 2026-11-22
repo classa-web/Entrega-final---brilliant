@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&display=swap');
+
+:root {
+  --papel: #f5f0e4;
+  --tinta: #292721;
+  --rojo: #a34736;
+  --papel-oscuro: #e7dfce;
+}
+
+body {
+  background-color: var(--papel);
+  color: var(--tinta);
+  font-family: "DM Sans", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: var(--tinta);
+}
+
+.nav-link {
+  color: var(--tinta);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--rojo);
+}
+
+header {
+  background-color: var(--papel-oscuro);
+}
+
+header h1 {
+  line-height: 1.2;
+}
+
+header p.text-uppercase {
+  color: var(--rojo);
+  letter-spacing: 2px;
+}
+
+header h1 span {
+  color: var(--rojo);
+}
+
+.lead {
+  font-size: 1.2rem;
+}
+
+.border-top, .border-bottom {
+  border-color: var(--tinta) !important;
+}
+
+.btn-dark {
+  background-color: var(--tinta);
+  border-color: var(--tinta);
+  border-radius: 0;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: var(--rojo);
+  border-color: var(--rojo);
+}
+
+section p.text-uppercase {
+  color: var(--rojo);
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+#galeria .card {
+  background-color: var(--papel);
+  border-radius: 0;
+  border: 1px solid var(--tinta);
+}
+
+#galeria img {
+  width: 100%;
+  object-fit: contain;
+  transition: opacity 0.5s ease;
+}
+
+#galeria img:hover {
+  opacity: 0.8;
+}
+
+#autor img {
+  width: 100%;
+}
+
+footer {
+  background-color: var(--papel-oscuro);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+}
