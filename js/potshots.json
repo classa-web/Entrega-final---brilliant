@@ -1,0 +1,39 @@
+
+[
+  {
+    "numero": "377",
+    "titulo": "On a moving planet",
+    "descripcion": "Sobre las dificultades de comunicarnos en un mundo en constante movimiento.",
+    "imagen": "img/potshot-01.jpg"
+  },
+  {
+    "numero": "2851",
+    "titulo": "Thinking of you",
+    "descripcion": "Sobre el afecto, la ausencia y la presencia del otro en nuestros pensamientos.",
+    "imagen": "img/potshot-02.jpg"
+  },
+  {
+    "numero": "56",
+    "titulo": "Waiting for life",
+    "descripcion": "Una mirada irónica sobre la espera de una vida más sencilla.",
+    "imagen": "img/potshot-03.jpg"
+  },
+  {
+    "numero": "122",
+    "titulo": "Starting to live",
+    "descripcion": "Sobre la contradicción de postergar constantemente el comienzo de nuestra propia vida.",
+    "imagen": "img/potshot-04.jpg"
+  },
+  {
+    "numero": "441",
+    "titulo": "Disappointment",
+    "descripcion": "Una reflexión sobre las expectativas y las decepciones.",
+    "imagen": "img/potshot-05.jpg"
+  },
+  {
+    "numero": "436",
+    "titulo": "Being careful",
+    "descripcion": "Sobre los riesgos de vivir una vida excesivamente prudente.",
+    "imagen": "img/potshot-06.jpg"
+  }
+]
