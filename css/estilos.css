@@ -124,3 +124,36 @@ footer {
   }
 
 }
+
+
+header img {
+  width: 100%;
+  transition: transform 0.5s linear;
+}
+
+header img:hover {
+  transform: rotate(3deg);
+}
+
+header .border {
+  background-color: var(--papel);
+  border-color: var(--tinta) !important;
+}
+
+#galeria .card {
+  border: none;
+}
+
+#galeria img {
+  border: 1px solid var(--tinta);
+  transition: all 0.5s;
+}
+
+#galeria img:hover {
+  transform: rotate(2deg);
+  opacity: 0.9;
+}
+
+#autor img {
+  width: 75%;
+}
